@@ -8,14 +8,8 @@ function setup() {
      fill(red);
   
      if(mouseIsPressed){
-       rect(mouseX, mouseY, 20, 15);
+       rect(mouseX, mouseY, 20, 35);
      }
     
-   }html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
+   }
   
