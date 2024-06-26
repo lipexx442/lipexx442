@@ -11,4 +11,11 @@ function setup() {
        rect(mouseX, mouseY, 20, 15);
      }
     
-   }
+   }html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
